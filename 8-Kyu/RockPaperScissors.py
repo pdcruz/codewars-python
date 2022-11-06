@@ -4,7 +4,6 @@
 # "scissors", "paper" --> "Player 1 won!"
 # "scissors", "rock" --> "Player 2 won!"
 # "paper", "paper" --> "Draw!"
-
 def rps(p1, p2):
     l1 = p1.lower()
     l2 = p2.lower()
@@ -24,7 +23,6 @@ def rps(p1, p2):
 
 # Solution
 # EXCELLENT solution using dictionary
-
 def rps_Solution(p1, p2):
     beats = {"rock": "scissors", "scissors": "paper", "paper": "rock"}
 

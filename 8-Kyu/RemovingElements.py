@@ -4,7 +4,6 @@
 # ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
 # 
 # None of the arrays will be empty, so you don't have to worry about that!
-
 def remove_every_other(my_list):
 
     result = []
