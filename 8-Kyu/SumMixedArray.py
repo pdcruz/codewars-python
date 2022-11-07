@@ -18,6 +18,7 @@ def sum_mix(arr):
 def sum_mix_Solution1(arr):
     return sum(map(int, arr))
 
+
 # Solution 2 using compact syntax
 # Note that both of the solutions apply the conversion without checking,
 # whereas my solution does actually check the type before attempting to convert.
