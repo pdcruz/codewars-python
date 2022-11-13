@@ -8,7 +8,5 @@
 # "12345".toAlternatingCase() === "12345" // Non-alphabetical characters are unaffected
 # "1a2b3c4d5e".toAlternatingCase() === "1A2B3C4D5E"
 # "String.prototype.toAlternatingCase".toAlternatingCase() === "sTRING.PROTOTYPE.TOaLTERNATINGcASE"
-
-
 def to_alternating_case(str):  
     return str.swapcase()
